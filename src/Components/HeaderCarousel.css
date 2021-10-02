@@ -1,0 +1,34 @@
+/*** Carousel ***/
+
+.slide-item {
+  position: relative;
+  height: 80vh;
+  width: 100vw;
+}
+.slide-item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(26, 27, 27, 0.315);
+}
+
+.slide-item > img {
+  height: 100%;
+  width: 100%;
+}
+
+.slide-text {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.slide-text > * {
+  text-align: center;
+}
