@@ -15,8 +15,10 @@ const AboutSection = () => {
         <div className="row g-5">
           <div className="col-lg-7">
             <div className="section-title position-relative pb-3 mb-5">
-              <h5 className="fw-bold text-primary text-uppercase">About Us</h5>
-              <h1 className="mb-0">The Read Factory</h1>
+              <h5 className="fw-bold text-primary text-uppercase text-4xl">
+                About Us
+              </h5>
+              <h1 className="mb-0 ">The Reading Factory</h1>
             </div>
             <div
               className="d-flex align-items-center mb-4 wow fadeIn"

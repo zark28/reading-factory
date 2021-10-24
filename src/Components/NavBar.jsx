@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import NavItem from "./NavItem";
 import { Link } from "react-router-dom";
@@ -13,19 +13,21 @@ const NavBar = () => {
     { item: "Donate", link: "/donate" },
   ];
   const [navMode, setNavMode] = useState();
-  // const navToggle = () => {
-  //   if (navMode) {
-  //     setNavMode("");
-  //   } else {
-  //     setNavMode("show");
-  //   }
-  // };
+  const focusPage = useRef();
+  useEffect(() => {
+    focusPage.current.focus();
+  }, []);
   return (
     <Styles>
-      <nav className={`navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0`}>
+      <nav
+        ref={focusPage}
+        autoFocus
+        className={`navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0`}
+      >
         <Link exact to="/" className="navbar-brand p-0">
-          <h1 className="m-0">
-            <i className="fa fa-user-tie me-2"></i>THE READING FACTORY
+          <h1 className="m-0 d-flex text-center items-center">
+            <img src="img/icon.png" alt="icon" width="150px" />
+            THE READING FACTORY
           </h1>
         </Link>
         <button

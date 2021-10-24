@@ -43,7 +43,7 @@ const FeaturesSection = ({ heading, text1, text2 }) => {
       icon: "fa fa-graduation-cap",
       heading: "Remedials",
       subText:
-        "We offer adult tailored remedial classes to adults and senior high school students who struggle to read, assimilate and write.",
+        "We offer adult tailored remedial ses to adults and senior high school students who struggle to read, assimilate and write.",
     },
     {
       delay: "0.6s",
@@ -54,36 +54,29 @@ const FeaturesSection = ({ heading, text1, text2 }) => {
     },
   ];
   return (
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-      <div class="container py-5">
+    <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div className="container d-flex  ">
         <div
-          class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+          className="section-title text-center position-relative pb-3 mb-5 mx-auto"
           style={{ maxWidth: "800px" }}
         >
-          <h1 class="mb-0">{heading}</h1>
-          <h5 class="fw-bold text-primary ">
+          <h1 className="mb-0 text-4xl">{heading}</h1>
+          <h5 className="fw-bold text-xl text-primary ">
             {text1}
             <br />
             {text2}
           </h5>
-        </div>
-        <div
-          class="d-flex flex-wrap"
-          style={{
-            gap: "auto",
-            overflowX: "hidden",
-            justifyContent: "space-evenly",
-          }}
-        >
-          {featureItems1.map((featureItem, index) => (
-            <FeaturesItems
-              delay={featureItem.delay}
-              heading={featureItem.heading}
-              icon={featureItem.icon}
-              subText={featureItem.subText}
-              key={index}
-            />
-          ))}
+          <div className="d-flex flex-wrap justify-between items-center">
+            {featureItems1.map((featureItem, index) => (
+              <FeaturesItems
+                delay={featureItem.delay}
+                heading={featureItem.heading}
+                icon={featureItem.icon}
+                subText={featureItem.subText}
+                key={index}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>

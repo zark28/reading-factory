@@ -21,7 +21,9 @@ const ContactPage = () => {
           className="section-title text-center position-relative pb-3 mb-5 mx-auto"
           style={{ maxWidth: "600px" }}
         >
-          <h5 className="fw-bold text-primary text-uppercase">Support Us</h5>
+          <h5 className="fw-bold text-4xl text-primary text-uppercase">
+            Support Us
+          </h5>
           <h1 className="mb-5">
             Grateful for your support, donation can be made via:
           </h1>

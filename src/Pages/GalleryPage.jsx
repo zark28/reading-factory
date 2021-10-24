@@ -35,7 +35,7 @@ const GalleryPage = () => {
           class="section-title text-center position-relative pb-3 mb-5 mx-auto"
           style={{ maxWidth: "600px" }}
         >
-          <h1 class="mb-5">Gallery</h1>
+          <h1 class="mb-5 text-4xl">Gallery</h1>
           <h5 class="fw-bold text-primary">The Reading Factory in Pictures</h5>
         </div>
         <GalleryCarousel />

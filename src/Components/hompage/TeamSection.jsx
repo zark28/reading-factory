@@ -19,28 +19,13 @@ const TeamSection = () => {
       role: "Project officer",
       delay: 0.6,
     },
-    {
-      img: "/img/faces/kendall.jpg",
-      details:
-        "Jane Karikari is a teacher and head of literacy development of The Reading Factory. She holds bachelor’s degree in English education and a certificate from USAID- Learning programme. She has more than 25 years’ experience in teaching elementary school and teachers in districts across Ghana. She was part of the team that pioneered the USAID-Learning Programme in Ghana.",
-      name: "Jane Karikari",
-      role: "Head of literacy development",
-      delay: 0.9,
-    },
+
     {
       img: "/img/faces/clifford.jpg",
       details:
         "Clifford Ateesi is the programmes manager for TeRF. He has Bachelor’s degree in Social Science Education at University of Education Winneba and currently pursuing his Masters in Environmental planning and Development at University of Energy and Natural Sciences. He has scores of experience in the hospitability business and the development sector. Clifford support the team with proposal writing, strategies for fundraising activities and general development of TeRF projects.",
       name: "Clifford Ateesi",
       role: "Programs Manager",
-      delay: 0.9,
-    },
-    {
-      img: "/img/faces/kendall.jpg",
-      details:
-        "Zenabu Iddrisu is a student and funding officer for The Reading Factory. She has 3 years experience in marketing andleading support campaigns for Non-Profits",
-      name: "Zenabu Iddrisu",
-      role: "Funding officer",
       delay: 0.9,
     },
   ];
@@ -51,7 +36,7 @@ const TeamSection = () => {
           class="section-title text-center position-relative pb-3 mb-5 mx-auto"
           style={{ maxWidth: "600px" }}
         >
-          <h1 class="mb-5">Our Team</h1>
+          <h1 class="mb-5 text-4xl">Our Team</h1>
           <h5 class="fw-bold text-primary">
             The Reading Factory has a formidable 7-member Board of Advisors with
             different professional backgrounds but have keen interest in

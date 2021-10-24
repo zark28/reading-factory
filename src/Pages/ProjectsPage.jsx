@@ -36,7 +36,9 @@ const ProjectsPage = () => {
           className="section-title text-center position-relative pb-3 mb-5 mx-auto"
           style={{ maxWidth: "600px" }}
         >
-          <h5 className="fw-bold text-primary text-uppercase">Our Projects</h5>
+          <h5 className="fw-bold text-primary text-uppercase text-4xl">
+            Our Projects
+          </h5>
           <h1 className="mb-0">THE READING FACTORY SO FAR…</h1>
         </div>
         <div className="row g-5">

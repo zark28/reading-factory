@@ -18,7 +18,9 @@ const AboutPage = () => {
         <div className="row g-5 mb-5">
           <div className="col-lg-7">
             <div className="section-title position-relative pb-3 mb-5">
-              <h5 className="fw-bold text-primary text-uppercase">About Us</h5>
+              <h5 className="fw-bold text-primary text-4xl text-uppercase">
+                About Us
+              </h5>
               <h1 className="mb-0">
                 Bridging the gap of literacy between rural and urban schools
               </h1>
@@ -28,7 +30,7 @@ const AboutPage = () => {
               in Ghana with the registration number CG0089202019.
               <br />
               <br />
-              It was formedin 2018 to help bridge the gap of literacy between
+              It was formed in 2018 to help bridge the gap of literacy between
               rural and urban schools in Ghana through the training of
               volunteers and teachers in TeRF hybrid literacy curriculum.
               Focusing on Sustainable Development Goal 4 (Quality Education),
@@ -92,7 +94,7 @@ const AboutPage = () => {
         </div>
         <div className="section-title position-relative pb-3 mb-2">
           {/* <h5 className="fw-bold text-primary text-uppercase">About Us</h5> */}
-          <h2 className="mb-0">The Read Factory SO far{"...."}</h2>
+          <h2 className="mb-0">The Reading Factory So far{"...."}</h2>
         </div>
         <p className="mb-5 fs-4 text-primary">
           In the past 17 months, we have used TeRF hybrid curriculum and

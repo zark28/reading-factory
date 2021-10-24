@@ -9,7 +9,9 @@ const BlogSection = () => {
           className="section-title text-center position-relative pb-3 mb-5 mx-auto"
           style={{ maxWidth: "600px" }}
         >
-          <h5 className="fw-bold text-primary text-uppercase">Latest Blog</h5>
+          <h5 className="fw-bold text-primary text-4xl text-uppercase">
+            Latest Blog
+          </h5>
           <h1 className="mb-0">Read The Latest Articles from Our Blog Post</h1>
         </div>
         <BlogList />
