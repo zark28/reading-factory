@@ -23,9 +23,10 @@ body {
 
 /********** Color Scheme **********/
 :root {
-  --primary: #ffea39;
+  --primary: #06a3da;
   --secondary: #34ad54;
   --light: #eef9ff;
+  /* --dark: #b47a28; */
   --dark: #091e3e;
 }
 

@@ -9,7 +9,7 @@ import GalleryPage from "./Pages/GalleryPage";
 import BlogPage from "./Pages/BlogPage";
 import DonatePage from "./Pages/DonatePage";
 import TeamPage from "./Pages/TeamPage";
-import Footer from "./Components/Footer";
+import Footer from "./Components/footerpage/Footer";
 import OneBLogPage from "./Pages/OneBLogPage";
 
 function App() {
@@ -27,6 +27,34 @@ function App() {
           <Route path="/blog:slug" component={OneBLogPage} />
           <Route exact path="/team" component={TeamPage} />
           <Route exact path="/donate" component={DonatePage} />
+          {/* <Route
+            path="twitter"
+            component={() => {
+              window.open("https://twitter.com/", "_blank");
+              return null;
+            }}
+          />
+          <Route
+            path="facebook"
+            component={() => {
+              window.open("https://facebook.com/", "_blank");
+              return null;
+            }}
+          />
+          <Route
+            path="/instagram"
+            component={() => {
+              window.open("https://instagram.com/", "_blank");
+              return null;
+            }}
+          />
+          <Route
+            path="/linkedin"
+            component={() => {
+              window.open("https://linkedin.com/", "_blank");
+              return null;
+            }}
+          /> */}
         </Switch>
         <Footer />
       </div>

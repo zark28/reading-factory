@@ -66,7 +66,7 @@ const FeaturesSection = ({ heading, text1, text2 }) => {
             <br />
             {text2}
           </h5>
-          <div className="d-flex flex-wrap justify-between items-center">
+          <div className="grid grid-cols-2">
             {featureItems1.map((featureItem, index) => (
               <FeaturesItems
                 delay={featureItem.delay}

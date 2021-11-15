@@ -47,12 +47,12 @@ const ProjectsPage = () => {
           ))}
           <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
             <div className="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
-              <h3 className="text-white mb-3">Call Us For Quote</h3>
+              <h3 className="text-white mb-3">Call Us/Donate</h3>
               <p className="text-white mb-3">
                 Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est
                 magna stet eirmod
               </p>
-              <h2 className="text-white mb-0">+012 345 6789</h2>
+              <h2 className="text-white mb-0">+233 24 773 1083</h2>
             </div>
           </div>
         </div>

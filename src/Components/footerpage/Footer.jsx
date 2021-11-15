@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AllRights from "./AllRights";
+import AllRights from "../AllRights";
 import FooterLInk from "./FooterLInk";
+import SocialLink from "./SocialLink";
 
 const Footer = () => {
   const linkClass1 = "btn btn-primary btn-square me-2";
@@ -17,7 +18,8 @@ const Footer = () => {
     {
       linkClass: linkClass1,
       icon: "fab fa-facebook-f fw-normal",
-      links: "facebook.com",
+      links:
+        "www.facebook.com/pages/category/Non-Governmental-Organization--NGO-/The-Reading-Factory-784994568331399/",
     },
     {
       linkClass: linkClass1,
@@ -138,7 +140,7 @@ const Footer = () => {
                   </div>
                   <div className="link-animated flex ">
                     {linkItems.map((linkItem, index) => (
-                      <FooterLInk
+                      <SocialLink
                         linkClass={linkItem.linkClass}
                         icon={linkItem.icon}
                         links={linkItem.links}

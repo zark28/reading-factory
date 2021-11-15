@@ -3,22 +3,22 @@ import React from "react";
 const FeaturesItems = ({ delay, icon, heading, subText }) => {
   return (
     <div
-      className=" d-flex flex-col item-center justify-between wow zoomIn text-align-center mb-5"
+      className=" d-flex flex-col items-center justify-center m-5"
       data-wow-delay={delay}
     >
       <div
-        className="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
-        style={{ width: "80px", height: "80px" }}
+        className="bg-primary d-flex items-center"
+        style={{ width: "100px", height: "100px" }}
       >
-        <i className={`${icon} text-white`}></i>
+        <i className={`${icon} text-white flex-1`}></i>
       </div>
-      <details className="details">
-        <summary>
-          {" "}
-          <h4 className="d-inline">{heading}</h4>
-        </summary>
-        <p className="mb-4 fs-5 text-primary text-wrap details">{subText}</p>
-      </details>
+      <div className=" w-">
+        <h4 className="d-inline">{heading}</h4>
+
+        <p className="mb-4 fs-5 text-primary text-left text-wrap details">
+          {subText}
+        </p>
+      </div>
     </div>
   );
 };

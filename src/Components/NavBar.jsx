@@ -25,7 +25,7 @@ const NavBar = () => {
         className={`navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0`}
       >
         <Link exact to="/" className="navbar-brand p-0">
-          <h1 className="m-0 d-flex text-center items-center">
+          <h1 className="m-0 d-flex text-center items-center text-white">
             <img src="img/icon.png" alt="icon" width="150px" />
             THE READING FACTORY
           </h1>
@@ -86,10 +86,6 @@ const Styles = styled.nav`
     transform: scale(1.1);
     transition: 5ms ease-in-out;
     z-index: 200;
-  }
-
-  .navbar-dark .navbar-brand h1 {
-    color: #ffffff;
   }
 
   .navbar-dark .navbar-toggler {
